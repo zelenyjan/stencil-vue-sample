@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "@zelenyjan/stencil-vue-sample-vue": "0.0.1"
+    "@zelenyjan/stencil-vue-sample-vue": "*"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
