@@ -1,0 +1,7 @@
+node_modules/
+.idea
+.vscode
+packages/my-app/dist
+packages/core-vue/dist
+packages/core-vue/lib/vue-component-lib
+packages/core-vue/lib/components.ts

@@ -1,0 +1,30 @@
+{
+  "name": "@zelenyjan/stencil-vue-sample-vue",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Jan Zeleny <zelenja8@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run tsc",
+    "tsc": "tsc -p ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@zelenyjan/stencil-vue-sample-components": "0.0.1"
+  },
+  "devDependencies": {
+    "vue": "^3.3.4"
+  }
+}
