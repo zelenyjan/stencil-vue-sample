@@ -13,6 +13,9 @@ const componentModels: ComponentModelConfig[] = [
 
 export const config: Config = {
   namespace: 'core',
+  extras: {
+    enableImportInjection: true,
+  },
   outputTargets: [
     {
       type: 'dist',
